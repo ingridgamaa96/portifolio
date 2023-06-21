@@ -21,13 +21,14 @@ export default function Home() {
             contact me
             <EmailIcon/>
           </a>
-        </div>
 
-        <div className="buttons">
           <a className="btn-primaryy"  href="./components/Curruculo/IngridDeveloperCv-3.pdf" download={"IngridDeveloperCv-3.pdf"} type = "application/pdf">
             Download Pdf Curriculum
           </a>
+        
         </div>
+
+        
     </main>
   )
 }
