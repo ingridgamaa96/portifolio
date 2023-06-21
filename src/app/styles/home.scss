@@ -8,7 +8,9 @@
     "header"
     "btns"
     "experience"
-    "info";
+    "info"
+    ;
+    
 
     .buttons {
         display: flex;
@@ -19,7 +21,7 @@
         grid-area: btns;
         width: 100%;
 
-        .btn-primary {
+        .btn-primary  {
             background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
             border-radius: 24px;
             width: 325px;
@@ -41,6 +43,28 @@
         }
     }
 }
+
+.btn-primaryy {
+    background: linear-gradient(90deg, #777CF4 2.62%, #F47777 93.38%);
+    border-radius: 24px;
+    width: 325px;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+
+    color: var(--text-primary);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: none;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
 
 @media (min-width: 768px){
     .container {

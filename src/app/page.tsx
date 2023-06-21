@@ -3,9 +3,11 @@ import { Experience } from './components/experience/experience'
 import { Header } from './components/header/header'
 import { Info } from './components/information/information'
 
+
 import "./styles/home.scss"
 import { EmailIcon } from './components/icons/email-icon'
 import { SocialBtns } from './components/social-btns/social-btns'
+
 
 export default function Home() {
   return (
@@ -15,9 +17,15 @@ export default function Home() {
         <Info/>
         <div className="buttons">
           <SocialBtns/>
-          <a className="btn-primary" href="mailto:teste@gmail.com">
+          <a className="btn-primary" href="mailto:ingridgama@live.com">
             contact me
             <EmailIcon/>
+          </a>
+        </div>
+
+        <div className="buttons">
+          <a className="btn-primaryy"  href="./components/Curruculo/IngridDeveloperCv-3.pdf" download={"IngridDeveloperCv-3.pdf"} type = "application/pdf">
+            Download Pdf Curriculum
           </a>
         </div>
     </main>
